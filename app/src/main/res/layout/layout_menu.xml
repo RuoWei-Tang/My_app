@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="270dp"
+    android:layout_height="match_parent"
+    android:background="#22FF00AA">
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/avatar"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="上传图片"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#00000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="用户设置"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#00000000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="退出登录"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#00000000"/>
+
+</LinearLayout>

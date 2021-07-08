@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/su"
+    android:orientation="vertical"
+    tools:context=".thirdActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="口味清淡为主。用料严谨，注重配色，讲究造型，四季有别。烹调技艺以炖、焖、煨著称；重视调汤，保持原汁，口味平和。善用蔬菜。其中淮扬菜，讲究选料和刀工，擅长制汤；苏南菜口味偏甜，注重制酱油，善用香糟、黄酒调味"
+        android:textColor="@color/white"/>
+</LinearLayout>
